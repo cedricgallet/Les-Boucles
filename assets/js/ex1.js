@@ -7,7 +7,7 @@
 
     
 
-    <script type="text/javascript" language="javascript">
+    
     function IsLeapYear(Year) {
      return (((Year & 3) == 0) && ((Year % 100 != 0) || (Year % 400 == 0)));
     }
@@ -15,5 +15,5 @@
     for(I=2020;I<=2030;I++) {
      if(IsLeapYear(I)) console.console.log(I+" est une année bissextile<BR>");
     }
-    </script>
+    
 
