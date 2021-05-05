@@ -1,7 +1,10 @@
-let days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi','Dimanche'];
+let days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
+days.forEach(Element => {
 
-for(i = 0; i <= 7; i++){
-    document.write(" " + days[i] + " ");
-}
-
-
+    if (element == days[5] || days[6] == Dimanche) {
+        document.write(`<strong style="font-weight:bold">${element}</strong>`);
+    } 
+    else {
+        document.write(element);
+    }
+})
